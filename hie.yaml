@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:clash-playground"
+    - path: "./bin/Clashi.hs"
+      component: "clash-playground:exe:clashi"
+    - path: "./bin/Clash.hs"
+      component: "clash-playground:exe:clash"
