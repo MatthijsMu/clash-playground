@@ -20,7 +20,7 @@ To compile the project to VHDL run:
 cabal run clash -- Clash.Playground.TopEntity --vhdl
 ```
 
-You can find the HDL files in `vhdl/`. The source can be found in `src/Example/Project.hs`.
+You can find the HDL files in `vhdl/`. The source can be found in `src/Clash/Playground`.
 
 # REPL
 To get a repl which allows to dynamically import modules and run and test code use the command:
