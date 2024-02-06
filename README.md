@@ -7,19 +7,8 @@ This starter project contains a small playground to work with clash
 - [Building and testing this project](#building-and-testing-this-project)
 - [REPL](#repl)
 
-# Building and testing this project
-Build the project with:
-
-```bash
-nix-build
-```
-
-Verilog code will be available under the `result/share/verilog` directory.
-Modify the `hdl` variable in `default.nix` to configure whether to generate
-SystemVerilog or VHDL.
-
-However development itself is more streamlined by using a Nix shell. Start one
-by invoking:
+# Working with this project
+Start a development shell by invoking:
 
 ```
 nix-shell
