@@ -8,5 +8,6 @@ in playground.env.overrideAttrs (oldEnv: {
   nativeBuildInputs = oldEnv.nativeBuildInputs ++ [
     pkgs.haskellPackages.cabal-install
     pkgs.haskellPackages.stylish-haskell
+    pkgs.haskellPackages.haskell-language-server
   ];
 })
