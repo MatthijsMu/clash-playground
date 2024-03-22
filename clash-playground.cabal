@@ -82,10 +82,13 @@ library
   hs-source-dirs: src
   exposed-modules:
     Clash.Playground.TopEntity
+    Clash.Playground.MAC
+    Clash.Playground.FIR
   default-language: Haskell2010
   build-depends:
     interpolate,
-    clash-cores
+    clash-cores,
+    mtl
 
 -- Builds the executable 'clash', with clash-playground project in scope
 executable clash
